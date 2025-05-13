@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men Haqimda - Muxlisaxon Umarova</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html">Bosh Sahifa</a></li>
+                <li><a href="about.html" class="active">Men Haqimda</a></li>
+                <li><a href="courses.html">Kurslar</a></li>
+                <li><a href="contact.html">Aloqa</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="about-container">
+        <div class="about-header">
+            <div class="about-image animate__animated animate__fadeInRight">
+                <img src="images/rasm7.png" alt="Portfolio rasmi" loading="lazy">
+            </div>
+            <div class="about-text animate__animated animate__fadeIn">
+                <p>"Men MUXLISAM — 3D dunyoni yaratishni yaxshi ko'radigan dizaynerman. 3ds Max men uchun faqat vosita emas, balki tasavvurimni cheksiz imkoniyatlar bilan bog'laydigan platforma. Har bir detal — bu hikoya, har bir loyiha — bu yangi olam!"</p>
+            </div>
+        </div>
+
+        <div class="buttons-container">
+            <button class="info-btn animate__animated animate__fadeInUp" data-modal="education">📘 Ta'lim</button>
+            <button class="info-btn animate__animated animate__fadeInUp animate__delay-1s" data-modal="experience">🧪 Tajriba</button>
+            <button class="info-btn animate__animated animate__fadeInUp animate__delay-2s" data-modal="projects">🎨 Loyihalarim</button>
+            <button class="info-btn animate__animated animate__fadeInUp animate__delay-3s" data-modal="articles">📝 Maqolalar</button>
+        </div>
+
+        <!-- Modal windows -->
+        <div id="education" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Ta'lim</h2>
+                <div class="modal-body education-grid">
+                    <div class="education-item">
+                        <div class="education-text">
+                            <h3>2021 – 2023</h3>
+                            <p>Farg'ona viloyati, Uchko'prik tumani, 2-sonli Kasb-hunar maktabi</p>
+                            <p>Kompyuter grafikasi va dizayn operatori yo'nalishi</p>
+                        </div>
+                        <div class="education-image">
+                            <img src="images/portfolio-1.jpg" alt="Kasb-hunar maktabi" class="zoomable">
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-text">
+                            <h3>2023 – hozirgacha</h3>
+                            <p>Andijon Davlat Universiteti, IT injiniring fakulteti</p>
+                            <p>Kompyuter ilmlari va dasturlash texnologiyalari yo'nalishi</p>
+                        </div>
+                        <div class="education-image">
+                            <img src="images/about-photo.jpg" alt="Universitet" class="zoomable">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="experience" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Tajriba</h2>
+                <div class="modal-body">
+                    <div class="experience-item">
+                        <h3>2021–2023</h3>
+                        <h4>2-sonli Kasb-hunar maktabi, Uchko'prik tumani</h4>
+                        <p>Kompyuter grafikasi va dizayn operatori</p>
+                        <p>Photoshop, CorelDRAW va 3ds Max dasturlarida ishlashni o'rgandim. Grafik dizayn, 2D/3D modellashtirish va kreativ loyihalar ustida tajriba orttirdim.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>2023–hozirgacha</h3>
+                        <h4>Andijon Davlat Universiteti, Kompyuter ilmlari yo'nalishi</h4>
+                        <p>Dasturlash va IT texnologiyalari</p>
+                        <p>Web dasturlash (HTML, CSS, JS), C++, Python va ma'lumotlar bazalari bilan ishlash bo'yicha amaliy bilimga egaman. Jamoaviy loyihalarda qatnashib, real muammolar ustida ishlayapman.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Loyihalarim</h2>
+                <div class="modal-body projects-grid">
+                    <div class="project-item" data-project="interior">
+                        <div class="project-image">
+                            <img src="images/rasm1.webp" alt="Zamonaviy yashash xonasi">
+                        </div>
+                        <div class="project-info">
+                            <h3>Interyer dizayni</h3>
+                            <p>Zamonaviy yashash xonasi</p>
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-project="exterior">
+                        <div class="project-image">
+                            <img src="images/rasm2.webp" alt="Villa fasadi">
+                        </div>
+                        <div class="project-info">
+                            <h3>Eksteryer dizayni</h3>
+                            <p>Villa fasadi</p>
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-project="furniture">
+                        <div class="project-image">
+                            <img src="images/rasm3.png" alt="Mebel kolleksiyasi">
+                        </div>
+                        <div class="project-info">
+                            <h3>Mahsulot vizualizatsiyasi</h3>
+                            <p>Mebel kolleksiyasi</p>
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-project="office">
+                        <div class="project-image">
+                            <img src="images/rasm4.jpg" alt="Ofis binosi">
+                        </div>
+                        <div class="project-info">
+                            <h3>Arxitektura konsepti</h3>
+                            <p>Ofis binosi</p>
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-project="animation">
+                        <div class="project-image">
+                            <img src="images/rasm5.jpg" alt="Yoritilgan xona">
+                        </div>
+                        <div class="project-info">
+                            <h3>Animatsion sahna</h3>
+                            <p>Yoritilgan xona walkthrough</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Details Modals -->
+        <div id="project-interior" class="project-modal">
+            <div class="project-modal-content">
+                <span class="close">&times;</span>
+                <div class="project-details">
+                    <div class="project-details-image">
+                        <img src="images/rasm1.webp" alt="Zamonaviy yashash xonasi">
+                    </div>
+                    <div class="project-details-info">
+                        <h2>Interyer dizayni – Zamonaviy yashash xonasi</h2>
+                        <p>3ds Max dasturida yaratilgan zamonaviy yashash xonasi loyihasi. Minimalistik dizayn, tabiiy yorug'lik va zamonaviy mebellar uyg'unligi.</p>
+                        <div class="project-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Dastur:</span>
+                                <span class="spec-value">3ds Max 2023</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Render:</span>
+                                <span class="spec-value">V-Ray 5</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Fayl hajmi:</span>
+                                <span class="spec-value">25MB</span>
+                            </div>
+                        </div>
+                        <a href="#" class="download-btn">Loyihani yuklab olish</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-exterior" class="project-modal">
+            <div class="project-modal-content">
+                <span class="close">&times;</span>
+                <div class="project-details">
+                    <div class="project-details-image">
+                        <img src="images/rasm2.webp" alt="Villa fasadi">
+                    </div>
+                    <div class="project-details-info">
+                        <h2>Eksteryer dizayni – Villa fasadi</h2>
+                        <p>Zamonaviy villa fasadi loyihasi. Geometrik shakllar, shisha va beton materiallarning uyg'unligi, landshaft dizayni bilan birlashtirilgan.</p>
+                        <div class="project-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Dastur:</span>
+                                <span class="spec-value">3ds Max 2023</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Render:</span>
+                                <span class="spec-value">Corona Renderer</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Fayl hajmi:</span>
+                                <span class="spec-value">35MB</span>
+                            </div>
+                        </div>
+                        <a href="#" class="download-btn">Loyihani yuklab olish</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mebel loyihasi modal -->
+        <div id="project-furniture" class="project-modal">
+            <div class="project-modal-content">
+                <span class="close">&times;</span>
+                <div class="project-details">
+                    <div class="project-details-image">
+                        <img src="images/rasm3.png" alt="Mebel kolleksiyasi">
+                    </div>
+                    <div class="project-details-info">
+                        <h2>Mahsulot vizualizatsiyasi – Mebel kolleksiyasi</h2>
+                        <p>Zamonaviy mebel kolleksiyasi uchun 3D vizualizatsiya loyihasi. Har bir detal va tekstura real ko'rinishga ega bo'lishi uchun maxsus e'tibor berilgan.</p>
+                        <div class="project-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Dastur:</span>
+                                <span class="spec-value">3ds Max 2023</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Render:</span>
+                                <span class="spec-value">V-Ray 5</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Fayl hajmi:</span>
+                                <span class="spec-value">45MB</span>
+                            </div>
+                        </div>
+                        <a href="#" class="download-btn">Loyihani yuklab olish</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ofis binosi loyihasi modal -->
+        <div id="project-office" class="project-modal">
+            <div class="project-modal-content">
+                <span class="close">&times;</span>
+                <div class="project-details">
+                    <div class="project-details-image">
+                        <img src="images/rasm4.jpg" alt="Ofis binosi">
+                    </div>
+                    <div class="project-details-info">
+                        <h2>Arxitektura konsepti – Ofis binosi</h2>
+                        <p>Zamonaviy ofis binosi uchun arxitektura konsepti. Ekologik va energiya tejamkor yechimlar bilan birlashtirilgan innovatsion dizayn.</p>
+                        <div class="project-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Dastur:</span>
+                                <span class="spec-value">3ds Max 2023</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Render:</span>
+                                <span class="spec-value">Corona Renderer</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Fayl hajmi:</span>
+                                <span class="spec-value">55MB</span>
+                            </div>
+                        </div>
+                        <a href="#" class="download-btn">Loyihani yuklab olish</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Animatsiya loyihasi modal -->
+        <div id="project-animation" class="project-modal">
+            <div class="project-modal-content">
+                <span class="close">&times;</span>
+                <div class="project-details">
+                    <div class="project-details-image">
+                        <img src="images/rasm5.jpg" alt="Yoritilgan xona">
+                    </div>
+                    <div class="project-details-info">
+                        <h2>Animatsion sahna – Yoritilgan xona walkthrough</h2>
+                        <p>Interyer dizaynini namoyish etuvchi animatsion walkthrough. Dinamik kamera harakatlari va real vaqtdagi yoritish effektlari bilan boyitilgan.</p>
+                        <div class="project-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Dastur:</span>
+                                <span class="spec-value">3ds Max 2023</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Render:</span>
+                                <span class="spec-value">V-Ray 5</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Fayl hajmi:</span>
+                                <span class="spec-value">120MB</span>
+                            </div>
+                        </div>
+                        <a href="#" class="download-btn">Loyihani yuklab olish</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="articles" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Maqolalar</h2>
+                <div class="modal-body articles-grid">
+                    <div class="article-item" data-article="retopology">
+                        <h3>Retopologiya Vositalari: Poligonal Tarmoqni Tozalash va Optimallashtirish</h3>
+                        <p class="article-preview">3ds Max 2025 dasturida retopologiya vositalari sezilarli darajada yaxshilangan...</p>
+                        <button class="read-more-btn">Batafsil</button>
+                    </div>
+
+                    <div class="article-item" data-article="smart-extrude">
+                        <h3>Smart Extrude: Interaktiv Ekstrudatsiya Operatsiyalari</h3>
+                        <p class="article-preview">3ds Max 2025 dasturida Smart Extrude funksiyasi qo'shilgan...</p>
+                        <button class="read-more-btn">Batafsil</button>
+                    </div>
+
+                    <div class="article-item" data-article="modifier-stack">
+                        <h3>Modifier Stack Workflow: Dizayn G'oyalarini O'rganish</h3>
+                        <p class="article-preview">3ds Max 2025 dasturida modifier stack workflow tizimi yaxshilangan...</p>
+                        <button class="read-more-btn">Batafsil</button>
+                    </div>
+
+                    <div class="article-item" data-article="usd">
+                        <h3>USD Integratsiyasi: Animatsiyalar va BlendShape</h3>
+                        <p class="article-preview">3ds Max 2025 dasturida USD formatining integratsiyasi kengaytirilgan...</p>
+                        <button class="read-more-btn">Batafsil</button>
+                    </div>
+
+                    <div class="article-item" data-article="python">
+                        <h3>Python 3 Qo'llab-quvvatlashi: Zamonaviy Skriptlash</h3>
+                        <p class="article-preview">3ds Max 2025 dasturida Python 3 qo'llab-quvvatlashi kengaytirilgan...</p>
+                        <button class="read-more-btn">Batafsil</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Article Detail Modals -->
+        <div id="article-retopology" class="article-modal">
+            <div class="article-modal-content">
+                <span class="close">&times;</span>
+                <h2>Retopologiya Vositalari: Poligonal Tarmoqni Tozalash va Optimallashtirish</h2>
+                <div class="article-content">
+                    <p>3ds Max 2025 dasturida retopologiya vositalari sezilarli darajada yaxshilangan. Endi foydalanuvchilar poligonal tarmoqni avtomatik ravishda toza va kvadrat asosli topologiyaga qayta qurish imkoniyatiga ega. Bu, ayniqsa, murakkab modellarni yaratishda samaradorlikni oshiradi.</p>
+                    
+                    <h3>Retopologiya jarayoni quyidagi bosqichlarni o'z ichiga oladi:</h3>
+                    <ul>
+                        <li><strong>Preprocessing:</strong> Tarmoqni tayyorlash va optimallashtirish jarayoni.</li>
+                        <li><strong>OpenVDB remeshing:</strong> Geometriyani qayta qurish va optimallashtirish uchun OpenVDB texnologiyasidan foydalanish.</li>
+                        <li><strong>Autodesk ReForm bilan integratsiya:</strong> Autodesk ReForm yordamida tarmoqni qayta qurish va optimallashtirish.</li>
+                    </ul>
+                    
+                    <p>Bu yangiliklar foydalanuvchilarga yuqori sifatli modellar yaratishda katta yordam beradi.</p>
+                    <p class="article-source">Manba: Autodesk 3ds Max 2025 rasmiy xususiyatlari</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="article-smart-extrude" class="article-modal">
+            <div class="article-modal-content">
+                <span class="close">&times;</span>
+                <h2>Smart Extrude: Interaktiv Ekstrudatsiya Operatsiyalari</h2>
+                <div class="article-content">
+                    <p>3ds Max 2025 dasturida Smart Extrude funksiyasi qo'shilgan. Bu funksiya foydalanuvchilarga 3D ob'ektlarning yuzalarini interaktiv ravishda chiqarish imkonini beradi.</p>
+                    
+                    <h3>Smart Extrude quyidagi imkoniyatlarni taqdim etadi:</h3>
+                    <ul>
+                        <li><strong>Flexible extrude operations:</strong> Cut-through va overlap kabi turli ekstrudatsiya operatsiyalarini qo'llash.</li>
+                        <li><strong>Automatic rebuilding and stitching:</strong> Qo'shni yuzalarni avtomatik ravishda tiklash va birlashtirish.</li>
+                        <li><strong>Enhanced modeling workflow:</strong> Geometrik shakllarni tez va samarali yaratishda yordam beruvchi qulay ish jarayoni.</li>
+                    </ul>
+                    
+                    <p>Bu yangilik modellashtirish jarayonini sezilarli darajada soddalashtiradi va samaradorligini oshiradi.</p>
+                    <p class="article-source">Manba: Autodesk 3ds Max 2025 rasmiy xususiyatlari</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="article-modifier-stack" class="article-modal">
+            <div class="article-modal-content">
+                <span class="close">&times;</span>
+                <h2>Modifier Stack Workflow: Dizayn G'oyalarini O'rganish va Takomillashtirish</h2>
+                <div class="article-content">
+                    <p>3ds Max 2025 dasturida modifier stack workflow tizimi yaxshilangan. Bu tizim foydalanuvchilarga dizayn g'oyalarini o'rganish va takomillashtirish uchun turli modifikatorlarni qo'llash imkonini beradi.</p>
+                    
+                    <h3>Modifier stack quyidagi xususiyatlarga ega:</h3>
+                    <ul>
+                        <li><strong>Non-destructive workflow:</strong> Modifikatorlarni qo'llash orqali ob'ektni o'zgartirish, original geometriyani saqlab qolish.</li>
+                        <li><strong>Interactive design exploration:</strong> Dizayn g'oyalarini interaktiv ravishda o'rganish va sinovdan o'tkazish.</li>
+                        <li><strong>Efficient iteration:</strong> Dizayn jarayonini tezlashtirish va samaradorligini oshirish.</li>
+                    </ul>
+                    
+                    <p>Bu tizim foydalanuvchilarga yanada samarali va tezkor ishlash imkonini beradi.</p>
+                    <p class="article-source">Manba: Autodesk 3ds Max 2025 rasmiy xususiyatlari</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="article-usd" class="article-modal">
+            <div class="article-modal-content">
+                <span class="close">&times;</span>
+                <h2>USD Integratsiyasi: Animatsiyalar va BlendShape Qo'llab-quvvatlash</h2>
+                <div class="article-content">
+                    <p>3ds Max 2025 dasturida USD (Universal Scene Description) formatining integratsiyasi kengaytirilgan. USD for 3ds Max 0.7 plaginining yangilanishi quyidagi imkoniyatlarni taqdim etadi:</p>
+                    
+                    <ul>
+                        <li><strong>Animatsiyalarni import qilish:</strong> USD formatidagi animatsiyalarni, shu jumladan yorug'lik va kamera animatsiyalarini import qilish.</li>
+                        <li><strong>BlendShape qo'llab-quvvatlashi:</strong> USD formatidagi blendShape ma'lumotlarini import qilish va eksport qilish.</li>
+                        <li><strong>USD 0.7 plagin yangilanishi:</strong> USD primlarini to'g'ridan-to'g'ri viewportda tanlash imkoniyati.</li>
+                    </ul>
+                    
+                    <p>Bu yangiliklar foydalanuvchilarga USD formatida ishlashda yanada qulaylik yaratadi.</p>
+                    <p class="article-source">Manba: 3ds Max 2025 yangiliklari</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="article-python" class="article-modal">
+            <div class="article-modal-content">
+                <span class="close">&times;</span>
+                <h2>Python 3 Qo'llab-quvvatlashi: Zamonaviy Skriptlash Muhiti</h2>
+                <div class="article-content">
+                    <p>3ds Max 2025 dasturida Python 3 qo'llab-quvvatlashi kengaytirilgan. Endi foydalanuvchilar Python 3.9 interpreteridan foydalanib, dastur bilan ishlashni yanada samarali tashkil etishlari mumkin.</p>
+                    
+                    <h3>Python 3 quyidagi imkoniyatlarni taqdim etadi:</h3>
+                    <ul>
+                        <li><strong>Pymxs API:</strong> MAXScript uchun Python interfeysi yordamida dastur funksiyalarini kengaytirish.</li>
+                        <li><strong>PySide2 yordamida foydalanuvchi interfeyslarini yaratish:</strong> Python asosida foydalanuvchi interfeyslarini yaratish imkoniyati.</li>
+                        <li><strong>Python 3.9 versiyasi:</strong> Python 3.9 versiyasi yordamida kengaytirilgan funksionallik va moslik.</li>
+                    </ul>
+                    
+                    <p>Bu yangiliklar foydalanuvchilarga dastur bilan ishlashda yanada qulaylik yaratadi.</p>
+                    <p class="article-source">Manba: 3ds Max 2025 Python qo'llab-quvvatlashi</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
